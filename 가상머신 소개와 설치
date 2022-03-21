@@ -1,0 +1,37 @@
+## 가상머신 소개와 설치(Vmware, ubuntu)
+
+
+<br>
+
+#### 가상머신
+
+- 지금 사용하는 Windows를 사용하면서도 여러 대의 리눅스 서버를 운영하는효과를 내는 프로그램
+- PC에 이미 설치되어있는 Windows를 호스트 운영체제(hostOS)라 부르고
+가상머신에 설치할 그 외의 운영체제를 게스트 운영체제(guestOS)라 부름
+- 멀티부팅(Multi-Booting)과는 개념이 다름
+
+<br>
+#### 가상머신의 소프트웨어 개념
+
+- 가상머신 소프트웨어를 사용해도 호스트 컴퓨터는 변경이 없고, 가상 라우터와 가상의 컴퓨터를 만들어 사용할 수 있음
+- Vmware Workstation pro와 Vmware Workstation player로 종류가 나뉘며 player는 무료지만 부가기능이 별로 없고 
+pro는 유료지만 스냅숏 기능과 가상 네트워크 사용자 설정 기능이 있음
+
+<br>
+#### Vmware Workstation pro 설치
+
+
+![2](https://user-images.githubusercontent.com/84123877/159231740-93071b9d-eb77-45d0-aaa0-23208b504a3a.PNG)
+→ 4개의 게스트os 폴더 생성  
+
+
+![3](https://user-images.githubusercontent.com/84123877/159232386-a936b151-d940-45e4-844c-a01b5c4dbcfb.PNG)
+→ 가상머신이 생성된 화면
+  ＊Edit virtual machine settings로 게스트os 구성확인 및 변경가능
+  
+  
+![4](https://user-images.githubusercontent.com/84123877/159232563-866e0b7b-6246-472c-92b3-da0572e2bc4a.PNG)
+→ 생성된 게스트os의 구성 변경
+
+![5](https://user-images.githubusercontent.com/84123877/159232568-bdd30d07-5645-4423-8d98-1c95882f2070.PNG)
+→ 위와 같은 방법으로 4개의 게스트os 생성
