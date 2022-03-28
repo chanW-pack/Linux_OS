@@ -2,7 +2,7 @@
 
 우분투 리눅스 학습 / 「이것이 우분투 리눅스다 (개정판)」 참조
 
-- [Ch 1. 실습 환경 구축](https://github.com/khyup0629/ubuntu_linux/blob/main/week_1/Ch_1_%EC%8B%A4%EC%8A%B5_%ED%99%98%EA%B2%BD_%EA%B5%AC%EC%B6%95.md#ch-1-%EC%8B%A4%EC%8A%B5-%ED%99%98%5)   
+- [Ch 1. 실습 환경 구축](https://m/khyup0629/ubuntu_linux/blob/main/week_1/Ch_1_%EC%8B%A4%EC%8A%B5_%ED%99%98%EA%B2%BD_%EA%B5%AC%EC%B6%95.md#ch-1-%EC%8B%A4%EC%8A%B5-%ED%99%98%5)   
 - [Ch 2. 우분투 리눅스 소개](https://github.com/khyup0629/ubuntu_linux/blob/main/eek_1/Ch_2_%EC%9A%B0%EB%B6%84%ED%88%AC_%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%86%8C%EA%B0%9C.md#ch-2-%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%A6%AC%EB%88%85%%EA%B0%9C)   
 - [Ch 3. 우분투 리눅스 설치](https://github.com/khyup0629/ubuntu_linux/blob/main/wek_1/Ch_3_%EC%9A%B0%EB%B6%84%ED%88%AC_%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%84%A4%EC%B9%98.md#ch-3-%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%A6%AC%EB%8C%84%A4%EC%B9%98)   
 - [Ch 4. 서버 구축시 알아야 할 필수 개념과 명령어](https://github.com/khyup0629/ubuntu_linux/blob/main/wek_1/Ch_4_%EC%84%9C%EB%B2%84%EA%B5%AC%EC%B6%95%EC%8B%9C%EC%95%8C%EC%95%84%EC%95%BC%ED%95%A0%ED%95%84%EC%88%98%EA%B0%9C%EB%85%90%EA%B3%BC%EB%AA%85%EB%A0%B9%EC%96%B4.md#ch-4-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%ED%95%84%EC%88%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EB%B4)   
