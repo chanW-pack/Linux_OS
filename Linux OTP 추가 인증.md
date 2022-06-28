@@ -8,7 +8,7 @@
 
 ## Ubuntu Linux에 구글 OTP 모듈 설치하기
 
-![Untitled](Linux%20OTP%206fbd93d5e9374e7b89ba2faa4adc0175/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/176129774-91b20306-138a-416b-b40e-69c1f61b3ff2.png)
 
 > 다음과 같은 명령으로 우분투 리늑수에 구글 OTP의 서버모듈인 
 Google Authenticator를 설치한다.
@@ -39,9 +39,9 @@ Google OTP는 타임베이스의 1회용 비밀번호를 스마트폰에 설치�
 
 ## OS 계정에 Google Authenticator 설정하기
 
-![Untitled](Linux%20OTP%206fbd93d5e9374e7b89ba2faa4adc0175/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/176129777-80563502-fcdf-4b80-a9c7-0ee60f1cc42f.png)
 
-![Untitled](Linux%20OTP%206fbd93d5e9374e7b89ba2faa4adc0175/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/176129782-13616bb2-e0bd-4385-b2aa-d1e7a020ab68.png)
 
 > 다음과 같이 구글 OTP를 사용해 2차 인증을 적용할 계정으로 로그인하여 설정한다.
 > 
@@ -58,7 +58,7 @@ Google OTP는 타임베이스의 1회용 비밀번호를 스마트폰에 설치�
 
 로그인 과정에서 구글 OTP 인증과정을 실행시키기 위해 다음과 같이 PAM 설정 파일 중 sshd 파일에 설정 문구를 추가한다.
 
-![Untitled](Linux%20OTP%206fbd93d5e9374e7b89ba2faa4adc0175/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/176129783-d141d7b7-b1ba-428f-8b9e-d45e4fcd8278.png)
 
 > 이 파일은 /etc/pam.d 디렉토리 sshd 라는 이름으로 위치해 있다.
 > 
@@ -76,7 +76,7 @@ Google OTP는 사실 Challenge-Response 방식의 인증은 아니지만 sshd가
 
 그리고 나서 sshd 서비스를 재구동 한다.
 
-![Untitled](Linux%20OTP%206fbd93d5e9374e7b89ba2faa4adc0175/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/176129786-e2bd5833-06bc-4787-bb25-c4e49dac4768.png)
 
 ---
 
@@ -84,12 +84,12 @@ Google OTP는 사실 Challenge-Response 방식의 인증은 아니지만 sshd가
 
 해당 서버에 ssh 접속을 시도하고 Google Authenticator를 설정한 계정의 ID를 입력한다.
 
-![Untitled](Linux%20OTP%206fbd93d5e9374e7b89ba2faa4adc0175/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/176129790-d931e813-17a8-448b-87bd-168e83ee926c.png)
 
 > 계정을 입력하고 비밀번호를 입력하니 OTP 비밀번호 6자리를 묻는다.
 > 
 
-![Untitled](Linux%20OTP%206fbd93d5e9374e7b89ba2faa4adc0175/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/176129794-91686796-536e-45f7-8cfb-fc5b7541244b.png)
 
 > 로그인이 성공적으로 진행되었다.
 > 
