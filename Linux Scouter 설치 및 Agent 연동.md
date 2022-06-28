@@ -29,7 +29,7 @@ WAS가 설치된 서버에 설치하며, Agent가 전송한 데이터 수집/처
 
 ---
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/176130670-2bf9b648-d118-46ea-89d1-2fd8da4bda95.png)
 
 ```bash
 $ wget https://github.com/scouter-project/scouter/releases/download/v2.8.1/scouter-all-2.8.1.tar.gz
@@ -45,7 +45,7 @@ $ tar xvfz scouter-all-2.8.1.tar.gz
 
 받은 파일의 압축을 해제한다. scouter라는 디렉터리가 생성된다.
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/176130672-53329627-15ca-4959-bdc7-024f8fb25ab8.png)
 
 > scouter 디렉터리에는 이와 같은 디렉터리들이 존재한다. 
 이 상태에서 즉시 실행이 가능하다.
@@ -56,7 +56,7 @@ $ cd /scouter설치경로/server
 $ ./startup.sh
 ```
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/176130676-420f9ab3-4309-40a7-98fe-00ebd851e27c.png)
 
 > 해당 문구가 나타나면서 구동되는것을 확인 가능하다.
 > 
@@ -79,20 +79,20 @@ Scouter는 웹에서 보는 것이 아닌 전용 툴을 설치하여 모니터�
 
 [Release v2.8.1 · scouter-project/scouter](https://github.com/scouter-project/scouter/releases/tag/v2.8.1)
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/176130680-eb92fcb5-7a6f-485d-b8e2-f0303a3a943e.png)
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/176130685-113feabc-1f28-44c5-bbc4-ddd336e7e6d9.png)
 
 > 다운받은 압축파일을 해제하고 scouter 파일을 실행시킨다.
 > 
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/176130687-8745d7b1-e672-4c2a-a1d0-2bec907bd752.png)
 
 > Server Address는 위에서 Scouter를 설치한 server의 ip를 입력하고,
 id/passwd는 admin/admin 이 초기값이다. (해당 서버의 유저인줄알고 좀 헤맸다…)
 > 
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/176130689-3423f493-22a3-4a5f-8c4f-c66dc270da9e.png)
 
 > 로그인 성공시 해당 화면이 나타난다.
 > 
@@ -112,7 +112,7 @@ Scouter-min-2.8.1.tar.gz 파일이 존재한다.
 
 해당 파일을 받아 모니터링할 서버에 적당한 위치에 옮겨서 풀어준다.
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/176130691-39d7dfb1-5fa4-4537-9275-d0909ccaff7f.png)
 
 ```
 vi /scouter설치경로/agent.host/conf/scouter.conf
@@ -122,11 +122,11 @@ vi /scouter설치경로/agent.host/conf/scouter.conf
 
 주석 처리가 되어있는 부분은 풀고 입력하면 된다.
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/176130696-148c619a-d4f3-46a6-a590-80d58ba37ff6.png)
 
 해당 설정으로 agent와 Scouter server가 연동이 되었다면 Client에서도 Configure를 통해 간단하게 수정이 가능하다.
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/176130655-f61cee6d-19ae-4869-8220-9e22a81b0d92.png)
 
 > 모두 기입한뒤, 실행을 진행한다.
 > 
@@ -137,7 +137,7 @@ $ cd /scouter설치경로/agent.host$ ./host.sh
 
 해당 명령어로 간단히 실행 가능하다.
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/176130662-b585cf79-40d8-4306-8b7d-0ed64016eddf.png)
 
 > 실행을 진행하고 Client(Viewer)로 돌아가보면 Scouter server에 팽귄이 연결된것을 볼 수 있다.
 (펭귄은 리눅스 서버라는 뜻이다.)
@@ -154,7 +154,7 @@ Java Agent는 Heap Memory, Thread 등의 Java Application의 성능 정보를 �
 tomcat 위에서 기동할 application을 모니터링 하기 위해 scouter agent를 설치하고 설정하겠다.
 scouter 디렉터리에 agent.java 디렉터리가 존재하는데 이곳에서 설정을 진행한다.
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/176130664-4ca2b030-1bad-4b94-a7a7-dc211389a7e5.png)
 
 > 마찬가지로 conf 디렉터리에 scouter.conf 파일에서 연결해주는 작업을 설정한다.
 instance가 여러개라면 scouter.conf 파일도 여러개를 작성하여야 한다. 
@@ -171,9 +171,9 @@ agent conf 설정이 끝났다면 tomcat의 catalina.sh나 [startup.sh](http://s
 
 이후 서버를 재기동한다.
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/176130665-a7578b00-7a5f-46c5-9061-6133db14d86c.png)
 
-![Untitled](Linux%20Scouter%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8E%E1%85%B5%20%E1%84%86%E1%85%B5%E1%86%BE%20Agent%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A9%E1%86%BC%20b475d3781a424f3c9fc2c529537bd531/Untitled%2013.png)
+![Untitled 13](https://user-images.githubusercontent.com/84123877/176130668-c379cc9a-2bb1-4b9e-8b46-984e94a59aec.png)
 
 > 잘 연결 되었다면 부팅 로그 확인 가능하며, Clinet에 tomcat을 상징하는 고양이가 나타난것을 확인 가능하다.
 > 
