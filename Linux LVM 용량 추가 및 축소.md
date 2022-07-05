@@ -29,24 +29,24 @@ lvm 축소를 진행하는데, xfs lvm을 축소하게되면 파일시스템이 
 
 AWS EC2를 생성하여 실습을 진행하겠다.
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/177227020-c797c12d-7ff5-437a-88de-24bbaddccbc2.png)
 
 > AWS EC2에 100GB, 20GB의 볼륨 2개를 추가하였다.
 > 
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/177226988-1e4b7004-87d1-4128-a32b-d2fd03e0df31.png)
 
 > 두 볼륨 타입을 LVM으로 설정하였다
 > 
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/177226992-f70a8c73-7305-4a21-a612-4e7aa03a0f81.png)
 
 > **LVM 생성은 생략한다**. (그런데 그냥 100G LVM1을  실습하였으므로… LVM2는 신경쓰지 않아도 상관 무~)
 > 
 
 혹시 TMI를 원한다면 <링크>
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/177226993-f4a69c12-45c9-4594-b65a-5922512ba137.png)
 
 > cwtest VG에서 100GB를 나눠 가진 lvmdata_1(70G), lvmdata_2(30G) 를 생성했다.
 > 
@@ -55,12 +55,12 @@ AWS EC2를 생성하여 실습을 진행하겠다.
 
 ---
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/177226995-af7c9da8-f5b3-4cc2-afab-9e8cf5a510fd.png)
 
 > lvmdata_1에 데이터를 추가했다. (testlvmFile1.txt)
 > 
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/177226997-c37b282b-3b15-44a0-9c98-ad4ab5565aa6.png)
 
 > xfsdump 패키지를 설치한다.
 > 
@@ -69,41 +69,41 @@ xfs의 축소 시 데이터 증발을 의식해서인지 xfs 전용 데이터 �
 
 해당 패키지로 lvm 내 데이터를 image화 시키면, lvm 축소 작업 도중 데이터가 손상되는 일이 발생하여도 안심이다^^
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/177226998-de139cd4-7a11-4061-88ef-ec33abd4ca18.png)
 
 > xfsdump 명령어로 데이터를 image화 시켰다.
 > 
 
 (해당 이미지를 생성할때 session 기록이 가능함. ex: 날짜)
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/177226999-69d29571-23e7-41aa-9f10-4958c2f3263a.png)
 
 > image로 문제없이 저장 완료
 > 
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%208.png)
+![Untitled 8](https://user-images.githubusercontent.com/84123877/177227001-5ac1b77c-c90b-469a-8c3d-31199884d39f.png)
 
 > 이제 lvm 용량 축소 작업을 위해 umount를 진행한다.
 > 
 
 축소 작업은 오프라인으로 진행해야하기 때문에 umount 이후 진행한다.
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%209.png)
+![Untitled 9](https://user-images.githubusercontent.com/84123877/177227005-8c40b94d-8920-4c62-87fb-9bb9195fe72a.png)
 
 > umount 진행하니 파일시스템이 확인되지 않는다. (xfs 한정)
 > 
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%2010.png)
+![Untitled 10](https://user-images.githubusercontent.com/84123877/177227007-011bc8a3-e782-4968-82db-d62721902daf.png)
 
 > mkfs 명령어로 파일시스템을 재설정한다. -f 옵션으로 강제설정
 > 
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%2011.png)
+![Untitled 11](https://user-images.githubusercontent.com/84123877/177227009-30263127-4765-4f7b-a679-a29484289692.png)
 
 > 재설정하니 파일시스템이 잘 확인된다.
 > 
 
-![Untitled](LVM%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%85%E1%85%A3%E1%86%BC%20%E1%84%8E%E1%85%AE%E1%84%80%E1%85%A1%20%E1%84%86%E1%85%B5%E1%86%BE%20%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%89%E1%85%A9%20f1b810d3e96949a68da778d8a4fd77c6/Untitled%2012.png)
+![Untitled 12](https://user-images.githubusercontent.com/84123877/177227011-063791f0-0177-4a9b-b7cc-f7ed777b42ae.png)
 
 > lvmdata_1 기존 용량에서 20GB가 줄어 50GB가 된 모습
 > 
