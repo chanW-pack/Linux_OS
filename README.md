@@ -1,6 +1,10 @@
-## Ubuntu(20.04 LTS) 리눅스 학습
+## Ubuntu(20.04) 리눅스 학습
 
-우분투 리눅스 학습 / 「이것이 우분투 리눅스다 (개정판)」 참조
+<aside>
+😁 [이것이 우분투 리눅스다 (개정판)] 도서를 참조해 공부한 내용입니다. 감사합니다.
+</aside>
+
+<chanwoo pack .2022>
 
 - [ubuntu 학습](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_ubuntu)   
 
