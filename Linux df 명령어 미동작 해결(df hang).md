@@ -2,7 +2,7 @@
 
 ---
 
-![Untitled](Linux%20df%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%20%E1%84%86%E1%85%B5%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%20%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF(df%20hang)%20c8ec65d18835496cbc0905a6a388a0d9/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/180142077-51f011e2-a602-473a-b367-1d8aca765cac.png)
 
 - disk 용량 확인 하려고 df -h 명령어를 실행했는데 실행이 안되는 이슈가 있었다.
 
@@ -12,22 +12,22 @@
 
 1. log 분석
 
-![Untitled](Linux%20df%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%20%E1%84%86%E1%85%B5%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%20%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF(df%20hang)%20c8ec65d18835496cbc0905a6a388a0d9/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/180142068-ec56b35a-af92-477e-8524-af3e6fd72287.png)
 
 > 위 사진과 같이 /var/log/messages를 보면 nfs still trying 혹은 timed out 메세지가 나온 것을 볼수 있다.
 > 
 - 이럴 경우 server(nas) 네트워크 문제가 있다고 판단된다.
 - client에서는 nfs로 mount 된 것을 물고 있지만 접근이 어려울 것이다.
 
-![Untitled](Linux%20df%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%20%E1%84%86%E1%85%B5%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%20%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF(df%20hang)%20c8ec65d18835496cbc0905a6a388a0d9/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/180142072-642df05e-bef8-422d-8aa6-2d59d995b308.png)
 
 2. client 조치
 
-![Untitled](Linux%20df%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%20%E1%84%86%E1%85%B5%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%20%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF(df%20hang)%20c8ec65d18835496cbc0905a6a388a0d9/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/180142075-975340f4-0f91-41a7-8aa2-cc5b6d3627f5.png)
 
 - 위 사진과 같이 공유 directory를 umount를 진행하였는데 **강제로 -f 옵션**까지 줘 봤는데도 device is busy 라는 문구가 나타난다.
 
-![Untitled](Linux%20df%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%85%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%20%E1%84%86%E1%85%B5%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8C%E1%85%A1%E1%86%A8%20%E1%84%92%E1%85%A2%E1%84%80%E1%85%A7%E1%86%AF(df%20hang)%20c8ec65d18835496cbc0905a6a388a0d9/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/180142076-cf49148f-fdd6-4850-9864-98a9a9b744bb.png)
 
 - -f 옵션까지 되지 않을 경우 **-l 옵션을 줘서 umount를 진행하여야 한다.
 (본인은 -l 옵션으로 해결했다.)**
