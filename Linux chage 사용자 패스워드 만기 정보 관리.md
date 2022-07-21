@@ -23,7 +23,7 @@
 - - I (i) : 패스워드 만료일까지 패스워드를 바꾸지 않으면 계정 만료(비활성화) 설정 옵션
 - - W : 패스워드 만료 몇일 전부터 사용자에게 경고 메세지 발송 설정
 
-![Untitled](Linux%20chage%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8C%E1%85%A1%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%83%E1%85%B3%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B5%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20498e55c195fe4f8da25a78aa25afa16f/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/180135916-ea4c2edd-f8ec-4ffa-9f9d-dedc805dcd1c.png)
 
 ## 패스워드 만료일 갱신 및 확인
 
@@ -108,12 +108,12 @@ user2:*:18473:6:180:10:10:18627:
 > 예제로, user2의 패스워드 정보를 살펴본다.
 > 
 
-![Untitled](Linux%20chage%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8C%E1%85%A1%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%83%E1%85%B3%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B5%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20498e55c195fe4f8da25a78aa25afa16f/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/180135910-ac63b05a-ddbb-43d3-8ceb-b148244d55ee.png)
 
 > ‘:’ 로 구분되어, 총 9개의 필드로 구성된 /etc/shadow 파일의 각 필드 정보는 다음과 같다.
 > 
 
-![Untitled](Linux%20chage%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8C%E1%85%A1%20%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%83%E1%85%B3%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%80%E1%85%B5%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20498e55c195fe4f8da25a78aa25afa16f/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/180135915-534ac5f9-21d1-4d68-a749-9648cd36a035.png)
 
 > 각 필드를 chage 명령어의 옵션과 연관 지어 본다면 다음과 같이 정리할 수 있다.
 > 
