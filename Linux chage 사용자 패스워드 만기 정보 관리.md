@@ -35,19 +35,19 @@
 chage -l 계정명 | grep -i '^password expires'
 ```
 
-1. 만료일 갱신
+2. 만료일 갱신
 
 ```bash
 chage -d 갱신한 일자 계정명 -> chage -d 2020-03-01 linuxuser
 ```
 
-1. 만료기한 변경
+3. 만료기한 변경
 
 ```bash
 chage -M기간 계정명 -> chage -M90 linuxuser
 ```
 
-1. 계정 만료 안되게 진행
+4. 계정 만료 안되게 진행
 
 ```
 chage -E -1 -m 0 -M 99999 계정명
