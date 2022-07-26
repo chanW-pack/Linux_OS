@@ -13,9 +13,9 @@
 
 ---
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/180896576-ceb0db77-7455-44fd-9c5a-f09c40468ea0.png)
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/180896561-2ae83b3d-8c03-4f51-968b-42eee775c081.png)
 
 ```bash
 vi /etc/systemd/system/rc-local.service  # 생성
@@ -34,7 +34,7 @@ ExecStart=/etc/rc.local start
 
 이후 `/etc/rc.local` 파일을 생성하고 실행 시 발동하고 싶은 명령어나 내용을 작성한다.
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/180896564-bb49515b-2ac6-4518-af00-6b0a7950146c.png)
 
 > 텍스트 파일을 생성하는 sh이다. 정상 작동을 한다면 재부팅시 test.txt 파일이 생성될것이다.
 > 
@@ -51,17 +51,17 @@ sudo systemctl start rc-local.service # 서비스 실행
 sudo systemctl status rc-local.service # 서비스 상태 확인
 ```
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/180896566-7c27cb0b-3bae-4931-a5ef-053911f19302.png)
 
 > 서비스가 정상작동중이다. 이제 재부팅을 진행해보겠다.
 > 
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled%204.png)
+![Untitled 4](https://user-images.githubusercontent.com/84123877/180896568-98068a8e-9d8e-4056-b766-239680560dfa.png)
 
 > 재부팅 전
 > 
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/84123877/180896569-b809aea2-181d-4da3-9942-80e29fa92da3.png)
 
 > 재부팅 후 파일 생성 sh이 실행되어 txt가 정상적으로 생성된것을 확인할 수 있다. 굳~
 > 
@@ -72,7 +72,7 @@ sudo systemctl status rc-local.service # 서비스 상태 확인
 
 ---
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled%206.png)
+![Untitled 6](https://user-images.githubusercontent.com/84123877/180896571-8f52ac73-2314-4db6-90ec-79bd5d18fcb6.png)
 
 > 서비스를 실행 할 스크립트를 /etc/init.d 에 생성한다.
 > 
@@ -111,7 +111,7 @@ ls /etc/rc*/*[스크립트 파일] # 등록 확인
 
 ### 해결완료되었다. sh 파일 내에 내용을 더 추가해야 하는듯 하다.
 
-![Untitled](Linux%20%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%A6%E1%86%B7%20%E1%84%8C%E1%85%A2%E1%84%87%E1%85%AE%E1%84%90%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B5%20%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%89%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A2%E1%86%BC%20sh%2031b0ac2c2f0644cd9e03a6331836beca/Untitled%207.png)
+![Untitled 7](https://user-images.githubusercontent.com/84123877/180896573-dbf3dcaf-8eb4-4539-8c8d-7d5f13fd630a.png)
 
 **위는 이미 존재하는 ssh의 자동 설정 파일이다.**
 
