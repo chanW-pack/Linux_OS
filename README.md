@@ -6,7 +6,7 @@
 
 <chanwoo pack .2022>
 
-- [ubuntu 학습](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_ubuntu)   
+- [ubuntu 학습 (1~4주차)](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_ubuntu)   
 
 ## Linux Function
 
