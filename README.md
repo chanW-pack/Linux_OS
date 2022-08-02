@@ -1,11 +1,11 @@
 ## Ubuntu(20.04) 리눅스 학습
 
 <aside>
-😁 [이것이 우분투 리눅스다 (개정판)] 도서를 참조해 공부한 내용입니다. 감사합니다. </br>
+😁 [이것이 우분투 리눅스다 (개정판)] 도서를 참조해 공부한 내용입니다. 감사합니다. </br></br>
 </aside>
 
-자신이 하는 일을 잘 이해할수록 그 일을 더 잘한다.</br>
-<chanwoo pack .2022>
+자신이 하는 일을 잘 이해할수록 그 일을 더 잘하게 될것이다.</br>
+<chanwoo pack .2022> </br></br>
 
 - [ubuntu 학습 (1~4주차)](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_ubuntu)   
 
