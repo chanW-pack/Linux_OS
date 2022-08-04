@@ -1,4 +1,4 @@
-# Linux default 계정 탐색
+# Linux default 계정 탐색 및 삭제
 
 ---
 
