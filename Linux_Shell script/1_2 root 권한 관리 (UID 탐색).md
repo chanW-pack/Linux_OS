@@ -2,7 +2,6 @@
 
 ---
 
-![image](https://user-images.githubusercontent.com/84123877/182796029-2632d1de-aded-4aa7-bbe0-3b20f86e10b4.png)
 ![2022-08-04 17 22 09](https://user-images.githubusercontent.com/84123877/182799972-5a91a581-25d2-4df5-9f7e-111cf6f279b7.png)
 
 ![Untitled](https://user-images.githubusercontent.com/84123877/182795413-d36f3139-935a-40bc-8ca4-597d505c3968.png)
