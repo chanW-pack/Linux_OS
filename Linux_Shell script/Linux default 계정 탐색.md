@@ -2,7 +2,7 @@
 
 ---
 
-![Untitled](Linux%20default%20%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%2049e5bd831b94410cae113e921fa7b769/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/182775993-fd5d3530-3fe3-42b5-801d-1e9dabbdc66b.png)
 
 ```bash
 #! /bin/bash
@@ -49,7 +49,7 @@ echo [ default 계정 탐색이 완료되었습니다. ]
 
 ---
 
-![Untitled](Linux%20default%20%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8%2049e5bd831b94410cae113e921fa7b769/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/182775986-071e8c31-597d-4589-8853-71e3767904be.png)
 
 존재하는 default 계정을 자동 삭제하는 기능도 추가할 수 있다.
 
