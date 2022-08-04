@@ -2,7 +2,7 @@
 
 ---
 
-![Untitled](1%202%20root%20%E1%84%80%E1%85%AF%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20(UID%20%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8)%2071f70349936f4ee0a3d3b8e7ceb5286e/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/182795413-d36f3139-935a-40bc-8ca4-597d505c3968.png)
 
 ```bash
 #! /bin/bash
@@ -39,11 +39,11 @@ echo [ UID  탐색이 완료되었습니다. ]
 
 ### 존재
 
-![Untitled](1%202%20root%20%E1%84%80%E1%85%AF%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20(UID%20%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8)%2071f70349936f4ee0a3d3b8e7ceb5286e/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/182795405-9bc4fbdb-77b6-4704-9088-959b0fbe5d91.png)
 
 ### 미존재
 
-![Untitled](1%202%20root%20%E1%84%80%E1%85%AF%E1%86%AB%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20(UID%20%E1%84%90%E1%85%A1%E1%86%B7%E1%84%89%E1%85%A2%E1%86%A8)%2071f70349936f4ee0a3d3b8e7ceb5286e/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/182795410-cb9f2792-e20c-440e-b5f6-cdd0927be80d.png)
 
 root 계정만 UID 0 을 가지도록 UID 0 인 계정들을 찾고 나타내는 기능이다.
 
