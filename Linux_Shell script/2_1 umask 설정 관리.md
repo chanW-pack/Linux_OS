@@ -2,9 +2,9 @@
 
 ---
 
-![Untitled](2%201%20UMASK%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20fcbc8ed3e3594ba59137ce21e2e6a3be/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/183345944-60130ba4-7164-4d3c-bd61-dffdd25f485c.png)
 
-![Untitled](2%201%20UMASK%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20fcbc8ed3e3594ba59137ce21e2e6a3be/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/183345938-478a4862-ffb2-4f01-b5e2-883bec75c8fd.png)
 
 ```bash
 #! /bin/bash
@@ -40,11 +40,11 @@ umask(파일,디렉터리 초기 접근권한 설정) 권한을 확인하는 스
 
 ### 권한 표준 일치
 
-![Untitled](2%201%20UMASK%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20fcbc8ed3e3594ba59137ce21e2e6a3be/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/183345941-026688c0-496a-4228-8363-ce64e4f65507.png)
 
 ### 권한 표준 불일치
 
-![Untitled](2%201%20UMASK%20%E1%84%89%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%A5%E1%86%BC%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5%20fcbc8ed3e3594ba59137ce21e2e6a3be/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/183345942-42752b27-cadd-41fa-9110-fbdda19fe710.png)
 
 불일치의 경우 `umask (8진수3자리)` 명령으로 일회성 umask를 설정하여 테스트를 진행했다.
 
