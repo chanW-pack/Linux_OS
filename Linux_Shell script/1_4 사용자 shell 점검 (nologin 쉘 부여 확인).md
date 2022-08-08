@@ -3,9 +3,9 @@
 
 ---
 
-![Untitled](1%204%20shell%20%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A1%E1%86%AB%20(%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5%20%E1%84%91%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AD%E1%84%92%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%8B%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%2010e06fac991b4fdd9a0389314afa3ef2/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/183327417-a0131de3-aa60-453d-89a5-d4678a8e5073.png)
 
-![Untitled](1%204%20shell%20%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A1%E1%86%AB%20(%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5%20%E1%84%91%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AD%E1%84%92%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%8B%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%2010e06fac991b4fdd9a0389314afa3ef2/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/183327414-b2ab955d-34f2-4bc3-ab39-073e4e4ee1c0.png)
 
 ```bash
 #! /bin/bash
@@ -50,7 +50,7 @@ echo [ nologin shell 부여확인 탐색이 완료되었습니다. ]
 
 ---
 
-![Untitled](1%204%20shell%20%E1%84%8C%E1%85%A6%E1%84%92%E1%85%A1%E1%86%AB%20(%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8B%E1%85%B5%20%E1%84%91%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%AD%E1%84%92%E1%85%A1%E1%84%8C%E1%85%B5%20%E1%84%8B%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%B3%E1%86%AB%20%E1%84%80%E1%85%A8%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%2010e06fac991b4fdd9a0389314afa3ef2/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/183327416-15228a4c-eaa1-4e32-9c55-1488b564203b.png)
 
 `LIST_USER_NAME` 리스트에 nologin 계정을 지정하고 /etc/passwd 정보를 확인하여 nologin 설정이 되어 있는지 확인하는 스크립트이다.
 
