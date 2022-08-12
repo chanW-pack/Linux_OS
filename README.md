@@ -21,10 +21,10 @@
 
 ## Shell script
 - [Linux 시스템 재부팅시 sh파일 자동실행](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/Linux%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%9E%AC%EB%B6%80%ED%8C%85%EC%8B%9C%20%EC%9E%90%EB%8F%99%EC%8B%A4%ED%96%89%20sh.md)
-- [[U-49] default 계정 탐색 (+ 삭제)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_1%20default%20%EA%B3%84%EC%A0%95%20%ED%83%90%EC%83%89%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.md)
-- [[U-44] root 권한 관리 (UID 탐색)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_2%20root%20%EA%B6%8C%ED%95%9C%20%EA%B4%80%EB%A6%AC%20(UID%20%ED%83%90%EC%83%89).md)
-- [[U-7~12] 파일 권한 설정 (권한 표준 설정 확인)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_3%20%ED%8C%8C%EC%9D%BC%20%EA%B6%8C%ED%95%9C%20%EC%84%A4%EC%A0%95%20(%EA%B6%8C%ED%95%9C%20%ED%91%9C%EC%A4%80%20%EC%84%A4%EC%A0%95%20%ED%99%95%EC%9D%B8).md)
-- [[U-53] 사용자 shell 점검 (nologin 쉘 부여 확인)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_4%20%EC%82%AC%EC%9A%A9%EC%9E%90%20shell%20%EC%A0%90%EA%B2%80%20(nologin%20%EC%89%98%20%EB%B6%80%EC%97%AC%20%ED%99%95%EC%9D%B8).md)
-- [[U-56] umask 설정 관리](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/2_1%20umask%20%EC%84%A4%EC%A0%95%20%EA%B4%80%EB%A6%AC.md)
+- [default 계정 탐색 (+ 삭제)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_1%20default%20%EA%B3%84%EC%A0%95%20%ED%83%90%EC%83%89%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.md)
+- [root 권한 관리 (UID 탐색)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_2%20root%20%EA%B6%8C%ED%95%9C%20%EA%B4%80%EB%A6%AC%20(UID%20%ED%83%90%EC%83%89).md)
+- [파일 권한 설정 (권한 표준 설정 확인)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_3%20%ED%8C%8C%EC%9D%BC%20%EA%B6%8C%ED%95%9C%20%EC%84%A4%EC%A0%95%20(%EA%B6%8C%ED%95%9C%20%ED%91%9C%EC%A4%80%20%EC%84%A4%EC%A0%95%20%ED%99%95%EC%9D%B8).md)
+- [사용자 shell 점검 (nologin 쉘 부여 확인)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_4%20%EC%82%AC%EC%9A%A9%EC%9E%90%20shell%20%EC%A0%90%EA%B2%80%20(nologin%20%EC%89%98%20%EB%B6%80%EC%97%AC%20%ED%99%95%EC%9D%B8).md)
+- [umask 설정 관리](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/2_1%20umask%20%EC%84%A4%EC%A0%95%20%EA%B4%80%EB%A6%AC.md)
 
 
