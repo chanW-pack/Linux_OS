@@ -97,28 +97,28 @@ local7.*                              /var/log/boot.log
 
 - 각 행에 대한 설명
 
-#kren.*  /dev/console
-= 위의 설정은 kernel에 관련된 로그(klogd) 기록을 /dev/console(모니터)에 뿌려주라는 의미이다.
+#kren.*  /dev/console </br>
+= 위의 설정은 kernel에 관련된 로그(klogd) 기록을 /dev/console(모니터)에 뿌려주라는 의미이다. </br></br>
 
-*.info;mail.none;authprive.none;cron.none    /var/log/messages
-= 시스템 로그파일로써, *.info는 모든 서비스에 대한 info 레벨 그 이상의 메세지를 의미하고, mail.none은 메일에 관한 로그를 기록하지 않는다는 의미이다.
-그리고 세미콜론으로 구분되어 있는 것은 각각의 Faculuty,Priority에 해당하는 설정을 동시에 여러개 지정하기 위함이다.
+*.info;mail.none;authprive.none;cron.none    /var/log/messages </br>
+= 시스템 로그파일로써, *.info는 모든 서비스에 대한 info 레벨 그 이상의 메세지를 의미하고, mail.none은 메일에 관한 로그를 기록하지 않는다는 의미이다. </br>
+그리고 세미콜론으로 구분되어 있는 것은 각각의 Faculuty,Priority에 해당하는 설정을 동시에 여러개 지정하기 위함이다. </br></br>
 
-authpriv.*     /var/log/secure
-= authpriv에 해당하는 데몬들에 대한 모든 상황에 대한 기록을 /var/log/secure 파일에 하라는 의미이다.
-즉, authpriv에 속하는 서비스들(xinetd,telnet,ftp 등)에 대한 모든 상황발생에 대하여 /var/log/secure 로그파일엑 기록한다.
-(이 경우 xinetd에 관련된 데몬들은 /etc/xinetd.d/* 파일에 설정되어 있으며, 해당되는 데몬들은 telnet, ftp, finger 등이다.)
+authpriv.*     /var/log/secure </br> 
+= authpriv에 해당하는 데몬들에 대한 모든 상황에 대한 기록을 /var/log/secure 파일에 하라는 의미이다. </br>
+즉, authpriv에 속하는 서비스들(xinetd,telnet,ftp 등)에 대한 모든 상황발생에 대하여 /var/log/secure 로그파일엑 기록한다. </br>
+(이 경우 xinetd에 관련된 데몬들은 /etc/xinetd.d/* 파일에 설정되어 있으며, 해당되는 데몬들은 telnet, ftp, finger 등이다.) </br></br>
 
-mail.*  /var/log/mailong
-= 메일에 관련된 모든 로그를 /var/log/maillong에 남기라는 의미이다.
-(sendmail, qmail, ipop, imap 등)
+mail.*  /var/log/mailong </br>
+= 메일에 관련된 모든 로그를 /var/log/maillong에 남기라는 의미이다. </br>
+(sendmail, qmail, ipop, imap 등) </br></br>
 
-cron.*  /var/log/cron 
-= 시스템 크론데몬(crond)에 관련된 모든 로그를 /var/log/cron에 남기도록 한 설정이다.
-cron 서비스에 해당하는 것은  crond 라는 데몬뿐 아니라 atd라는 예약작업 데몬도 이에 해당한다.
+cron.*  /var/log/cron  </br>
+= 시스템 크론데몬(crond)에 관련된 모든 로그를 /var/log/cron에 남기도록 한 설정이다. </br>
+cron 서비스에 해당하는 것은  crond 라는 데몬뿐 아니라 atd라는 예약작업 데몬도 이에 해당한다. </br></br>
 
-local7.*  /var/log/boot/log
-= 시스템이 부팅될 때의 로그메세지로서 var/log/boot.log 파일에 그 기록을 저장한다.
-시스템 부팅 메세지는 dmesg 명령어로 볼 수 있으며, /var/log/dmesg 파일을 열어봐도 알 수 있다.
+local7.*  /var/log/boot/log </br>
+= 시스템이 부팅될 때의 로그메세지로서 var/log/boot.log 파일에 그 기록을 저장한다. </br>
+시스템 부팅 메세지는 dmesg 명령어로 볼 수 있으며, /var/log/dmesg 파일을 열어봐도 알 수 있다. </br></br>
 
 ---
