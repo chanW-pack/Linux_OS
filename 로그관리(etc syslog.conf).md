@@ -73,7 +73,7 @@ ex) 8단계인 debug는 1부터 8까지의 상황을 모두 포함
 
 ---
 
-```json
+```
 # Log all kernel messages to the console.
 # Logging much else clutters up the screen.
 #kern.*                                   /dev/console
