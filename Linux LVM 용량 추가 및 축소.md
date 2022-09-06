@@ -39,12 +39,9 @@ AWS EC2를 생성하여 실습을 진행하겠다.
 > 두 볼륨 타입을 LVM으로 설정하였다
 > 
 
-\\<!-- ![Untitled 2](https://user-images.githubusercontent.com/84123877/177226992-f70a8c73-7305-4a21-a612-4e7aa03a0f81.png) -->
+<!-- ![Untitled 2](https://user-images.githubusercontent.com/84123877/177226992-f70a8c73-7305-4a21-a612-4e7aa03a0f81.png) -->
 
-> **LVM 생성은 생략한다**. (그런데 그냥 100G LVM1을  실습하였으므로… LVM2는 신경쓰지 않아도 상관 무~)
-> 
-
-혹시 TMI를 원한다면 <링크>
+### **LVM 생성은 생략한다**. (그런데 그냥 100G LVM1을  실습하였으므로… LVM2는 신경쓰지 않아도 상관 없다.)
 
 ![Untitled 3](https://user-images.githubusercontent.com/84123877/177226993-f4a69c12-45c9-4594-b65a-5922512ba137.png)
 
