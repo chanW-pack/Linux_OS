@@ -41,11 +41,9 @@ AWS EC2를 생성하여 실습을 진행하겠다.
 
 <!-- ![Untitled 2](https://user-images.githubusercontent.com/84123877/177226992-f70a8c73-7305-4a21-a612-4e7aa03a0f81.png) -->
 
-### **LVM 생성은 생략한다**. (그런데 그냥 100G LVM1을  실습하였으므로… LVM2는 신경쓰지 않아도 상관 없다.)
-
 ![Untitled 3](https://user-images.githubusercontent.com/84123877/177226993-f4a69c12-45c9-4594-b65a-5922512ba137.png)
 
-> cwtest VG에서 100GB를 나눠 가진 lvmdata_1(70G), lvmdata_2(30G) 를 생성했다.
+> LVM을 생성하고 cwtest VG에서 100GB를 나눠 가진 lvmdata_1(70G), lvmdata_2(30G) 를 생성했다.
 > 
 
 ## LVM 용량 축소 및 데이터 복구 (xfs 한정)
