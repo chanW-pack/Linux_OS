@@ -26,6 +26,6 @@
 - [파일 권한 설정 (권한 표준 설정 확인)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_3%20%ED%8C%8C%EC%9D%BC%20%EA%B6%8C%ED%95%9C%20%EC%84%A4%EC%A0%95%20(%EA%B6%8C%ED%95%9C%20%ED%91%9C%EC%A4%80%20%EC%84%A4%EC%A0%95%20%ED%99%95%EC%9D%B8).md)
 - [사용자 shell 점검 (nologin 쉘 부여 확인)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/1_4%20%EC%82%AC%EC%9A%A9%EC%9E%90%20shell%20%EC%A0%90%EA%B2%80%20(nologin%20%EC%89%98%20%EB%B6%80%EC%97%AC%20%ED%99%95%EC%9D%B8).md)
 - [umask 설정 관리](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/2_1%20umask%20%EC%84%A4%EC%A0%95%20%EA%B4%80%EB%A6%AC.md)
-- [!인프라 취약 분석 yaml](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_Shell%20script/%EC%B7%A8%EC%95%BD%EC%A0%90%20%EB%B6%84%EC%84%9D)
+- [!인프라 취약 분석 shell scripting](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_Shell%20script/%EC%B7%A8%EC%95%BD%EC%A0%90%20%EB%B6%84%EC%84%9D)
 
 
