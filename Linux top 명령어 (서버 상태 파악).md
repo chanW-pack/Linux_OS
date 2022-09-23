@@ -60,11 +60,11 @@ top 명령어는 현재 OS의 상태를 나타내는 CLI 어플리케이션이�
 
 ### k - kill process
 
-top 화면을 보며 프로세스를 종료 가능하다.
+= top 화면을 보며 프로세스를 종료 가능하다.
 
 ### Sorting the process list
 
-디테일 영역에 대해 원하는 값을 기준으로 정렬 방법을 제공한다.
+= 디테일 영역에 대해 원하는 값을 기준으로 정렬 방법을 제공한다.
 
 - ‘M’ to sort by memory usage
 - ‘P’ to sort by CPU usage
@@ -74,11 +74,11 @@ top 화면을 보며 프로세스를 종료 가능하다.
 
 ### **Showing a list of threads instead of processes**
 
-‘H’ 커맨드로 쓰레드(thread)를 기준으로 보여주는 방식이 변경된다.
+= ‘H’ 커맨드로 쓰레드(thread)를 기준으로 보여주는 방식이 변경된다.
 
 ### **Filtering through processes**
 
-‘O’ or ‘o’ 커맨드로 필터링이 가능하다. 필터는 COMMAND, CPU 등 다양하게 가능하다.
+= ‘O’ or ‘o’ 커맨드로 필터링이 가능하다. 필터는 COMMAND, CPU 등 다양하게 가능하다.
 
 ![Untitled 2](https://user-images.githubusercontent.com/84123877/191898415-b7d26b0f-dde9-42f9-bf53-6e4aeb180248.png)
 
