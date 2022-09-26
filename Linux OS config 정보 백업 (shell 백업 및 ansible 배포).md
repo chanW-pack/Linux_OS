@@ -14,7 +14,7 @@ config 정보 백업 파일을 생성하는 스크립트를 구성하고, 이를
 
 ---
 
-![Untitled](Linux%20OS%20config%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20(shell%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20ans%20033abaea626842dcaab8e15c9437d21c/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/192235386-1ff3940e-4346-45cd-9ae2-198be400275e.png)
 
 ```bash
 #! /bin/bash
@@ -64,7 +64,7 @@ today 변수는 스크립트 실행시 날짜를 나타내며, 디렉터리 및 
 
 ---
 
-![Untitled](Linux%20OS%20config%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20(shell%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20ans%20033abaea626842dcaab8e15c9437d21c/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/192235371-db0a0e49-f364-4b6a-bdd3-23f78a79bd1e.png)
 
 ```yaml
 ---
@@ -96,7 +96,7 @@ copy 모듈을 사용하여 각 서버에 지정된 디렉터리로 복사한다
 
 ---
 
-![Untitled](Linux%20OS%20config%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20(shell%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20%E1%84%86%E1%85%B5%E1%86%BE%20ans%20033abaea626842dcaab8e15c9437d21c/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/192235383-46883b95-0b6d-4f7b-83ff-53e2f9438861.png)
 
 /home 디렉터리에 date로 불러온 날짜의 디렉터리가 생성되고, 그 안에 각 명령어에 대한 정보 파일이 날짜와 함꼐 저장된것을 확인 가능하다.
 
