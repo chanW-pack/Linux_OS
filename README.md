@@ -21,6 +21,7 @@
 - [Linux IPv6 비활성화 작업](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20IPv6%20%EB%B9%84%ED%99%9C%EC%84%B1%ED%99%94%20%EC%9E%91%EC%97%85.md)
 - [Linux 로그관리(etc syslog.conf)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20%EB%A1%9C%EA%B7%B8%EA%B4%80%EB%A6%AC(etc%20syslog.conf).md)
 - [Linux top 명령어 (서버 상태 파악)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20top%20%EB%AA%85%EB%A0%B9%EC%96%B4%20(%EC%84%9C%EB%B2%84%20%EC%83%81%ED%83%9C%20%ED%8C%8C%EC%95%85).md)
+- [Linux OS config 정보 백업 (shell 백업 및 ansible 배포)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20OS%20config%20%EC%A0%95%EB%B3%B4%20%EB%B0%B1%EC%97%85%20(shell%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20ansible%20%EB%B0%B0%ED%8F%AC).md)
 
 ## Shell script
 - [Linux 시스템 재부팅시 sh파일 자동실행](https://github.com/chanW-pack/Linux_OS/blob/main/Linux_Shell%20script/Linux%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%9E%AC%EB%B6%80%ED%8C%85%EC%8B%9C%20%EC%9E%90%EB%8F%99%EC%8B%A4%ED%96%89%20sh.md)
