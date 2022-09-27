@@ -14,7 +14,7 @@ Logrotate는 Linux에서 로그를 저장하며 관리할 때, 로그 파일이 
 
 ---
 
-![images_gillog_post_d78caa68-b80f-495e-9222-b0bb998f13d0_image.png](Linux%20Logrotate%20(%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5)%20cee742686a8847d69b8c10c58e0b69e6/images_gillog_post_d78caa68-b80f-495e-9222-b0bb998f13d0_image.png)
+![images_gillog_post_d78caa68-b80f-495e-9222-b0bb998f13d0_image](https://user-images.githubusercontent.com/84123877/192410928-531de353-848a-44b2-831f-7bd20e1619db.png)
 
 Logrotate은 위와 같은 순서로 실행하며, 구성하는 파일들은 아래와 같은 구조를 가진다.
 
@@ -139,13 +139,14 @@ config 파일을 작성한 후 명령어로 Logrotate을 실행시켜준다.
 
 ---
 
-![Untitled](Linux%20Logrotate%20(%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5)%20cee742686a8847d69b8c10c58e0b69e6/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/192410924-9e165ddf-5b97-4be0-9492-65f23335f5fd.png)
 
 logrotate.d 내에 기본적으로 설정되있는 boot.log를 확인했다.
 
 내용으로는, 로그가 없을 시 에러메세지를 나타내며 매일 로테이션, 4개 이상으로는 생성이 안된다는 설정이다. compress로 log파일 압축을 진행한다.
 
-![Untitled](Linux%20Logrotate%20(%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%20%E1%84%87%E1%85%AE%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%AA%E1%86%AB%E1%84%85%E1%85%B5)%20cee742686a8847d69b8c10c58e0b69e6/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/192410930-9a3c6e08-c0ed-4a61-83d3-f96684f5049f.png)
+
 
 아직 시간이 지나지 않아 2개의 로그파일밖에 없지만, 매일 로테이션을 진행하며 최대 4개까지의 파일이 생성되니 4일마다 로그가 로테이션(변경)된다고 생각하면 된다.
 
