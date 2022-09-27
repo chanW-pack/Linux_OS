@@ -41,9 +41,21 @@ Logrotate는 Linux System에서 log관리를 위해 사용되는데, OS 설치�
 
 ### Logrotate 옵션
 
----
 
-~~
+| rotate [숫자] | log파일이 5개 이상 되면 삭제 </br> ex) rotate 5 |
+| --- | --- |
+| maxage [숫자] | log파일이 30일 이상 되면 삭제 </br> ex) maxage 30 |
+| size | 지정된 용량보다 클 경우 rotate 실행 </br> ex) size +100k |
+| create [권한][유저] [그룹] | rotate 되는 로그파일 권한 지정 </br> ex) create 644 root root |
+| notifempty | 로그 내용이 없으면 rotate 하지 않음 |
+| ifempty | 로그 내용이 없어도 rotate 진행 |
+| monthly(월) , weekly(주) , daily(일) | rotate 진행 |
+| compress | 로테이트 되는 로그파일 gzip 압축 |
+| nocompress | 로테이트 되는 로그파일 gzip 압축 X |
+| missingok | 로그 파일이 발견되지 않은 경우 에러처리 하지 않음 |
+| dateext | 백업 파일의 이름에 날짜가 들어가도록 함 |
+
+
 
 다른 옵션이 필요한 경우 `man logrotate` 명령어로 정보를 확인할 수 있다.
 
