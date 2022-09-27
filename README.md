@@ -16,11 +16,11 @@
  - [Linux Scouter 설치 및 Agent 연동](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20Scouter%20%EC%84%A4%EC%B9%98%20%EB%B0%8F%20Agent%20%EC%97%B0%EB%8F%99.md)   
  - [Linux LVM 용량 추가 및 축소](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20LVM%20%EC%9A%A9%EB%9F%89%20%EC%B6%94%EA%B0%80%20%EB%B0%8F%20%EC%B6%95%EC%86%8C.md)   
 - [Linux chage 사용자 패스워드 만기 정보 관리](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20chage%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%ED%8C%A8%EC%8A%A4%EC%9B%8C%EB%93%9C%20%EB%A7%8C%EA%B8%B0%20%EC%A0%95%EB%B3%B4%20%EA%B4%80%EB%A6%AC.md)
-- [Linux df 명령어 미동작 해결(df hang)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20df%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EB%AF%B8%EB%8F%99%EC%9E%91%20%ED%95%B4%EA%B2%B0(df%20hang).md)
 - [Linux netstat 네트워크 상태 확인](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20netstat%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%83%81%ED%83%9C%20%ED%99%95%EC%9D%B8.md)
 - [Linux IPv6 비활성화 작업](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20IPv6%20%EB%B9%84%ED%99%9C%EC%84%B1%ED%99%94%20%EC%9E%91%EC%97%85.md)
 - [Linux 로그관리 (/etc/syslog.conf)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20%EB%A1%9C%EA%B7%B8%EA%B4%80%EB%A6%AC(etc%20syslog.conf).md)
 - [Linux 로그 분산 관리 (Logrotate)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20Logrotate%20(%EB%A1%9C%EA%B7%B8%20%EB%B6%84%EC%82%B0%20%EA%B4%80%EB%A6%AC).md)
+- [Linux df 명령어 미동작 해결(df hang)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20df%20%EB%AA%85%EB%A0%B9%EC%96%B4%20%EB%AF%B8%EB%8F%99%EC%9E%91%20%ED%95%B4%EA%B2%B0(df%20hang).md)
 - [Linux top 명령어 (서버 상태 파악)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20top%20%EB%AA%85%EB%A0%B9%EC%96%B4%20(%EC%84%9C%EB%B2%84%20%EC%83%81%ED%83%9C%20%ED%8C%8C%EC%95%85).md)
 - [Linux OS config 정보 백업 (shell 백업 및 ansible 배포)](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20OS%20config%20%EC%A0%95%EB%B3%B4%20%EB%B0%B1%EC%97%85%20(shell%20%EB%B0%B1%EC%97%85%20%EB%B0%8F%20ansible%20%EB%B0%B0%ED%8F%AC).md)
 
