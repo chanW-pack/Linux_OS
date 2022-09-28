@@ -12,14 +12,11 @@
 
 bash shell에서 PS1의 값을 확인하면 다음과 같이 나타난다.
 
-![Untitled](Linux%20Shell%20Prompt%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%BC%20823b169d76114150ab0a19b36667f20e/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/192693619-20843616-4c84-4588-be1e-75300dc0b2ac.png)
 
 | \h | 현재 호스트의 이름을 나타낸다. |
-
 | —- | —- |
-
 | \W | 현재 위치의 디렉터리를 나타낸다. | 
-
 |  \u | 현재 로그인된 사용자를 나타낸다. |
 
 본인 PS1의 경우 예전에 커스텀을 하여 보통과 다르게 나타났다.
