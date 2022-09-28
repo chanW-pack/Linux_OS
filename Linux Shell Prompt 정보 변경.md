@@ -23,9 +23,9 @@ bash shell에서 PS1의 값을 확인하면 다음과 같이 나타난다.
 
 ### Prompt에 나타낼 수 있는 정보
 
-
-| \t | 24시간의 단위로 현재시각을 HH:MM:SS 로 표시 |
+| 쉘 변수 기호 | 의미 |
 | --- | --- |
+| \t | 24시간의 단위로 현재시각을 HH:MM:SS 로 표시 |
 | \T | 12시간의 단위로 현재시각을 HH:MM:SS 로 표시 |
 | \@ | 12시간의 단위로 현재시각을 오전/오후 로 표시 |
 | \d | 현재 날짜를 나타냄. 요일, 월, 일 형식으로 |
@@ -46,12 +46,18 @@ bash shell에서 PS1의 값을 확인하면 다음과 같이 나타난다.
 | \V | 사용중인 bash 의 배포, 버전+패치수준으로 버전을 상세히 표시함 |
 | \r | Carrage retrun |
 
+## Prompt 색상 정보 (ANSI color)
 | 코드 | 색상 |
 | --- | --- |
+| 30(Nomal) | Black | 
+| 31(Nomal) | Red |
+| 32(Nomal) | Green | 
+| 33(Nomal) | Yellow |
+| 34(Nomal) | Blue |
+| 35(Nomal) | Magenta | 
+| 36(Nomal) | Cyan |
+| 37(Nomal) | White |
 
-**Prompt 색상 정보 (ANSI color)**
-
-프롬프트의 색상 정보 입니다.
 
 ### PS1 변수 변경하기
 ---
