@@ -74,7 +74,7 @@ bash shell에서 PS1의 값을 확인하면 다음과 같이 나타난다.
 - https://bashrcgenerator.com/
 
 ![2022-09-28 14 31 18](https://user-images.githubusercontent.com/84123877/192695745-5d210b7a-ade9-413d-b8e2-56387a254488.png)
-해당 사이트에서 손쉽게 변수를 편집할 수 있다. (설정 프리뷰도 실시간 확인이 가능)
+| 해당 사이트에서 손쉽게 변수를 편집할 수 있다. (설정 프리뷰도 실시간 확인이 가능)
 
 ![2022-09-28 14 31 55](https://user-images.githubusercontent.com/84123877/192695750-b63f98fa-3ca6-4818-8306-f21afec305c0.png)
 모든 사용자에게 적용을 시키기 위해 /etc/bashrc 파일을 수정한다.
