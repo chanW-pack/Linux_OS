@@ -70,4 +70,15 @@ bash shell에서 PS1의 값을 확인하면 다음과 같이 나타난다.
 - 개별 사용자 적용
 : ~/.bashrc : 모든 사용자들의 홈 디렉터리에 존재하며, 각 개별 사용자들의 쉘을 설정 가능하다.
 
+## 적용
+https://bashrcgenerator.com/
+![2022-09-28 14 31 18](https://user-images.githubusercontent.com/84123877/192695745-5d210b7a-ade9-413d-b8e2-56387a254488.png)
+해당 사이트에서 손쉽게 변수를 편집할 수 있다. (설정 프리뷰도 실시간 확인이 가능)
+
+![2022-09-28 14 31 55](https://user-images.githubusercontent.com/84123877/192695750-b63f98fa-3ca6-4818-8306-f21afec305c0.png)
+모든 사용자에게 적용을 시키기 위해 /etc/bashrc 파일을 수정한다.
+
+![2022-09-28 14 33 02](https://user-images.githubusercontent.com/84123877/192695753-55734bb0-161b-49ca-b23c-30a1d769bda4.png)
+내가 원하는 설정으로 적용이 완료되었다.
+
 ---
