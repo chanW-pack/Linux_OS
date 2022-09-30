@@ -12,9 +12,9 @@
 
 ---
 
-![Untitled](Linux%20OS%20config%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20(+%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%206611a035a8eb48d0a836b78769c55aff/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/193196045-96ab0a9b-2b2a-4cf1-ae7e-d315a303e2bc.png)
 
-![Untitled](Linux%20OS%20config%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20(+%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%206611a035a8eb48d0a836b78769c55aff/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/193196034-2fa1bfd4-3609-4627-af36-48b74f3036dc.png)
 
 ```bash
 #! /bin/bash
@@ -107,9 +107,9 @@ echo The server configuration information storage is complete.
 
 ---
 
-![Untitled](Linux%20OS%20config%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20(+%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%206611a035a8eb48d0a836b78769c55aff/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/84123877/193196038-7839d68e-76e1-4ce4-801b-ceff6418b619.png)
 
-![Untitled](Linux%20OS%20config%20%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%20%E1%84%87%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%A5%E1%86%B8%20(+%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%206611a035a8eb48d0a836b78769c55aff/Untitled%203.png)
+![Untitled 3](https://user-images.githubusercontent.com/84123877/193196041-3533d476-bce7-49ed-bce5-9239afe4e7d2.png)
 
 > 순차적으로 네트워크 인터페이스를 확인 후 , Ok로 사용이 확인된 인터페이스 정보만 백업한다.
 > 
