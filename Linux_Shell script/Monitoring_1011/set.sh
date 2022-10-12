@@ -41,9 +41,11 @@ while read line || [ -n "$line" ] ; do
        mydisk=(`echo $line | awk '{k=""; for(i=5; i<='$total_length'; i++) k = k $i" "; print k}'`)
        disk=${#mydisk[@]}
 
-        echo  ===========================
+        echo  =======================================
         echo $today Server Check Task List ... $hostname
-        echo $host_ok $mem_ck $cpu_ck
+        echo "|" $host_ok "|"  $mem_ck "|" $cpu_ck "|"
+        echo  ---------------------------------------
+
 
         for ((var=1; var <= $disk; var++));
         do
