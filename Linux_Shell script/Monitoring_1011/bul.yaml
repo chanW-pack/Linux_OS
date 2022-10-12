@@ -1,0 +1,36 @@
+---
+  - hosts: all
+    name: test
+    # gather_facts: false
+    become: true
+
+    tasks:
+      - name: MEMORY
+        shell: >
+          echo "scale=1; 100*(`free | grep Mem: | awk '{ print $2 }'`-`free |
+          grep Mem: | awk '{ print $7 }'`)/`free | grep Mem: | awk '{ print $2 }'`" |
+          bc | awk -F. '{ print $2 }'
+        register: MEM
+
+      - name: CPU
+        shell: >
+          top -b -n 1 | grep -i cpu\(s\)| awk -F, '{print $4}' |
+          tr -d "%id," | awk '{print 100-$1}' | awk -F "" '{print$1}'
+        register: CPU
+
+      - name: DISK
+        shell: df -P | egrep -v '(Filesystem|tmpfs)' | awk '{print $6,":",$5}' | sed -e 's/\s//g' |  xargs echo
+        register: DIS
+
+      - name: create file
+        file:
+          path: /home/shell/1006_monitoring/allServer-{{ansible_date_time.date}}
+          state: touch
+        delegate_to: localhost
+
+      - lineinfile:
+          line: "{{ ansible_hostname }} True MEM:{{ MEM.stdout }} CPU:{{ CPU.stdout }} {{ DIS.stdout }}"
+          path: /home/shell/1006_monitoring/allServer-{{ansible_date_time.date}}
+          insertafter: EOF
+        delegate_to: localhost
+        
