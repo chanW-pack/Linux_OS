@@ -15,7 +15,7 @@ root 비밀번호 초기화
 ---
 - [계정 생성](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EA%B3%84%EC%A0%95%20%EC%83%9D%EC%84%B1.md)
 - [SELINUX]
-- [파일권한 설정]
+- [파일권한 설정](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%ED%8C%8C%EC%9D%BC%EA%B6%8C%ED%95%9C%20%EC%84%A4%EC%A0%95.md)
 - [스케쥴링 설정]
 - [협력디렉터리 생성]
 - [NTP 설정]
