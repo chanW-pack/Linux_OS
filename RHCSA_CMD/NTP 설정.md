@@ -22,7 +22,7 @@ Complete!
 # Use public servers from the pool.ntp.org project.
 # Please consider joining the pool (https://www.pool.ntp.org/join.html).
 # pool 2.rhel.pool.ntp.org iburst  << 기존 ntp (주석처리함)
-server utility.net1.exapmle.com iburst  << 새로 추가
+server utility.net1.exapmle.com iburst  #새로 추가
 wq!
 
 # chronyd 데몬 시작 및 부팅시 활성화 설정
