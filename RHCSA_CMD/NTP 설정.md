@@ -56,4 +56,40 @@ MS Name/IP address         Stratum Poll Reach LastRx Last sample
 
 ```
 
+```bash
+chrony는 NTP와는 달리 기본 설정에서 access 설정을 하지 않으면
+UDP 123번 port를 listen 하지 않는다.
+
+즉, client mode 로만 동작을 한다는 의미이다.
+그러므로 chrony.conf에 allow 설정을 해주어야 Time Service가
+가능하다.
+
+vi /etc/chrony.conf 
+allow ip_대역
+
+```
+
+```bash
+-- 추가  --------------------------------------------------------------------------------------------
+
+
+ chrony 서버는 allow 로 클라이언트 ip 대역을 허용해줘야함
+
+
+
+ 클라이언트는
+
+ server 서버ip 만 설정
+
+ allow 는 설정 ㄴㄴ
+
+
+ 그리고 서버와 클라이언트 둘 다 방화벽 허용해주기
+
+
+ firewall-cmd --add-service=ntp --permanent
+ firewall-cmd --reload
+ 
+ ```
+
 ---
