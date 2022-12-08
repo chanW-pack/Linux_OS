@@ -25,3 +25,4 @@ root 비밀번호 초기화
 - [파일 찾기](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%ED%8C%8C%EC%9D%BC%20%EC%B0%BE%EA%B8%B0.md)
 - [문자열 찾기](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B0%BE%EA%B8%B0.md)
 - [아카이브 생성](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C%20%EC%83%9D%EC%84%B1.md)
+- [r]
