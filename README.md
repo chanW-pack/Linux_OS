@@ -11,6 +11,9 @@
 - [ubuntu 학습 (1~4주차)](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_ubuntu)   
 
 ## Linux Function
+<aside>
+개인적으로 공부한 내용들입니다. ^^ </br></br>
+</aside>
 
 - [Linux OTP 추가 인증](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20OTP%20%EC%B6%94%EA%B0%80%20%EC%9D%B8%EC%A6%9D.md)   
 - [Linux ulimit 설명 및 설정방법](https://github.com/chanW-pack/Linux_OS/blob/main/Linux%20ulimit%20%EC%84%A4%EB%AA%85%20%EB%B0%8F%20%EC%84%A4%EC%A0%95%EB%B0%A9%EB%B2%95.md)
