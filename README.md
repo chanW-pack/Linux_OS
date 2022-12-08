@@ -8,7 +8,7 @@
 </br>
 <chanwoo pack .2022> </br></br>
 
-- [ubuntu 학습 (1~4주차)](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_ubuntu)   
+- [ubuntu 학습 (1~4주차) 도서 및 유튜브 참조](https://github.com/chanW-pack/Linux_OS/tree/main/Linux_ubuntu)   
 
 ## Linux Function
 <aside>
