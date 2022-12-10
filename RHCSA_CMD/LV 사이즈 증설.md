@@ -10,7 +10,8 @@
 
 참고: 파티션은 정확히 동일한 크기가 요청되지 않으므로 225-275 범위내의 크기가 허용된다.
 
-![Untitled](LV%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3%20%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%2073cc9197d35c4d5eaaa9b6cb2e8fa22e/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/84123877/206857276-25421cc2-b427-4ee7-aa7b-d23e075635b1.png)
+
 
 ```bash
 [root@localhost ~]# df -h /cwMaster/
@@ -115,7 +116,8 @@ df /cwMaster
 
 ### + 추가2
 
-![Untitled](LV%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3%20%E1%84%8C%E1%85%B3%E1%86%BC%E1%84%89%E1%85%A5%E1%86%AF%2073cc9197d35c4d5eaaa9b6cb2e8fa22e/Untitled%201.png)
+![Untitled 1](https://user-images.githubusercontent.com/84123877/206857272-b9b3af50-8f0c-492b-8f00-e1f529f74412.png)
+
 
 -l +3 으로 3%를 추가할 수 있으며, 용량 옆 가로에 (63 extents) 등으로 현재 퍼센트가 나타난다.
 
