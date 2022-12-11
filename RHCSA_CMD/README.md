@@ -63,7 +63,7 @@ root 비밀번호 초기화
 ** LVM 명령어가 설치되어 있지 않다면
 yum install lvm2 -y
 ```
-- [LV 사이즈 증설]
+- [LV 사이즈 증설](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/LV%20%EC%82%AC%EC%9D%B4%EC%A6%88%20%EC%A6%9D%EC%84%A4.md)
 - [스왑 추가]
 - [논리 볼륨 생성]
 - [Stratis]
