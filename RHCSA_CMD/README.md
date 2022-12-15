@@ -65,7 +65,7 @@ yum install lvm2 -y
 ```
 - [LV 사이즈 증설](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/LV%20%EC%82%AC%EC%9D%B4%EC%A6%88%20%EC%A6%9D%EC%84%A4.md)
 - [스왑 추가]
-- [논리 볼륨 생성]
+- [논리 볼륨 생성](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EB%85%BC%EB%A6%AC%20%EB%B3%BC%EB%A5%A8%20%EC%83%9D%EC%84%B1.md)
 - [Stratis]
 - [vdo]
 - [시스템 성능 튜닝]
