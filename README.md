@@ -54,6 +54,6 @@
 - [find 표현식](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/find%20%ED%91%9C%ED%98%84%EC%8B%9D.md)
 - [문자열 찾기](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EB%AC%B8%EC%9E%90%EC%97%B4%EC%B0%BE%EA%B8%B0.md)
 - [아카이브 생성](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EC%95%84%EC%B9%B4%EC%9D%B4%EB%B8%8C%20%EC%83%9D%EC%84%B1.md)
-- [기본권한 설정](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EA%B8%B0%EB%B3%B8%EA%B6%8C%ED%95%9C%20%EC%84%A4%EC%A0%95.md)
+- [기본권한 설정](https://github.com/chanW-pack/Linux_OS/blob/main/RHCSA_CMD/%EA%B8%B0%EB%B3%B8%EA%B6%8C%ED%95%9C%20%EC%84%A4%EC%A0%95.md)  
 LVM
 - [LVM 사이즈 증설]
